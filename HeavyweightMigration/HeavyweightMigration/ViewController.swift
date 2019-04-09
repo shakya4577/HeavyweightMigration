@@ -14,10 +14,15 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         userTableView.dataSource = self
         userTableView.delegate = self
         
-        // insertIntitialData()
-         //loadInitialData()
+        /*** To insert dummy data into data model v1*********/
+        /***** Uncomment below two lines to if current model version is set to HeavyweightMigration ****/
+        
+         insertIntitialData()
+         loadInitialData()
 
-       loadSwedenUser()
+        /**** To load data from data model v2 ********/
+        /*** Uncomment below line if current model version is set to HeavyweightMigrationV2. ***/
+         //loadSwedenUser()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
