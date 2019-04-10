@@ -17,8 +17,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         /*** To insert dummy data into data model v1*********/
         /***** Uncomment below two lines to if current model version is set to HeavyweightMigration ****/
         
-         insertIntitialData()
-         loadInitialData()
+        // insertIntitialData()
+      //   loadInitialData()
 
         /**** To load data from data model v2 ********/
         /*** Uncomment below line if current model version is set to HeavyweightMigrationV2. ***/
